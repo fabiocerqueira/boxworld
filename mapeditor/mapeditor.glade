@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
-<!--Generated with glade3 3.4.5 on Wed Mar  4 17:36:44 2009 -->
+<!--Generated with glade3 3.4.5 on Wed Mar  4 17:43:50 2009 -->
 <glade-interface>
-  <widget class="GtkWindow" id="window1">
+  <widget class="GtkWindow" id="winMapEditor">
+    <property name="visible">True</property>
+    <property name="title" translatable="yes">BoxWorld - Editor de Mapas</property>
+    <signal name="destroy" handler="on_winMapEditor_destroy"/>
     <child>
       <widget class="GtkVBox" id="vbox1">
         <property name="visible">True</property>
